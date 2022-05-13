@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+
+.calc-btn-container {
+  @apply basis-[25%] flex justify-center items-center;
+}
+
+.calc-btn {
+  @apply w-[78px] h-[78px] bg-background rounded-full flex justify-center items-center;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
