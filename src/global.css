@@ -22,3 +22,11 @@ body {
   @apply w-[78px] h-[78px] bg-background rounded-full flex justify-center items-center;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.equal-btn-container {
+  @apply basis-[50%];
+}
+
+.equal-btn {
+  @apply bg-purple text-white w-[100%] text-4xl;
+}
